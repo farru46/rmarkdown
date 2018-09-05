@@ -1,8 +1,10 @@
 ---
 title: "Visualizing the ocean floor"
-output: html_document
 params:
-  data: "hawaii"
+  data: hawaii
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r include = FALSE}
